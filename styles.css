@@ -75,3 +75,16 @@ section {
 .link:hover {
     text-decoration: underline;
 }
+
+.game-images{
+    display:flex;
+    gap:15px;
+    margin-bottom:20px;
+}
+
+.game-images img{
+    width:100%;
+    max-width:250px;
+    border-radius:6px;
+    border:1px solid #1f1f1f;
+}
