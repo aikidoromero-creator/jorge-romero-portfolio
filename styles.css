@@ -86,9 +86,24 @@ section {
 .main-image{
     width:100%;
     max-width:450px;
-    min-width: 250px;
-    height:auto;
     border-radius:10px;
     margin: 0 auto 20px auto;
     display:block;
+    transition: transform 0.3s ease;
+}
+
+.main-image:hover{
+    transform: scale(1.05);
+}
+
+.meta{
+    font-size:13px;
+    opacity:0.7;
+    margin-bottom:10px;
+}
+
+.stack{
+    color:#00ff88;
+    font-size:14px;
+    margin-bottom:10px;
 }
