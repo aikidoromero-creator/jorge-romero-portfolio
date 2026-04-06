@@ -84,7 +84,7 @@ section {
 
 .game-images img{
     width:100%;
-    max-width:250px;
-    border-radius:6px;
+    max-width:400px;
+    border-radius:8px;
     border:1px solid #1f1f1f;
 }
