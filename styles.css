@@ -61,10 +61,11 @@ section {
     color: #0f0f0f;
 }
 
-.card {
+.card{
     border: 1px solid #1f1f1f;
     padding: 30px;
     margin-top: 30px;
+    text-align:center;
 }
 
 .link {
@@ -82,10 +83,11 @@ section {
     margin-bottom:20px;
 }
 
-.game-images img{
+.main-image{
     width:100%;
-    max-width:500px;
+    max-width:350px;
+    height:auto;
     border-radius:10px;
-    margin-bottom: 20px;
-    border:1px solid #1f1f1f;
+    margin: 0 auto 20px auto;
+    display:block;
 }
