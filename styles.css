@@ -88,9 +88,10 @@ section {
     max-width:450px;
     height:auto;
     border-radius:10px;
-    margin: 15px auto;
+    margin:15px auto;
     display:block;
     border:1px solid #1f1f1f;
+    transition: transform 0.3s ease;
 }
 
 .main-image:hover{
@@ -126,14 +127,4 @@ section {
 
 .certifications .card{
     margin-top:20px;
-}
-
-img{
-    width:100%;
-    max-width:450px;
-    height:auto;
-    display:block;
-    margin:15px auto;
-    border-radius:10px;
-    border:1px solid #1f1f1f;
 }
