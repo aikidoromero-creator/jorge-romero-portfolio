@@ -128,3 +128,10 @@ section {
 .certifications .card{
     margin-top:20px;
 }
+
+.github-stats{
+    width:100%;
+    max-width:500px;
+    margin:20px auto;
+    display:block;
+}
